@@ -1,5 +1,11 @@
 ### Hi there 👋
+<div id=“circle”> <span id=“number”>5</span> </div>
 
+<style> #circle { width: 100px; height: 100px; border-radius: 50%; background-color: lightblue; display: flex; align-items: center; justify-content: center; }
+
+#number { font-size: 20px; transition: font-size 2s; } </style>
+
+<script> window.onload = function() { var number = document.getElementById(“number”); var value = parseInt(number.textContent); number.style.fontSize = value * 10 + “px”; }; </script>
 <!--
 **Taranking1385/Taranking1385** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

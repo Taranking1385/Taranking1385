@@ -2,6 +2,7 @@
   <br> Manager of trend smart.
  <br> I'm a Back-End Developer</h3>
   
+<h3 animation="helt"> 5 <h3/>
 
 ###
 
@@ -13,7 +14,7 @@
 
 ###
 
-<div align="center">
+<div align= ="center">
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="45" alt="javascript logo"  />
 
@@ -152,7 +153,7 @@
 
 #number { font-size: 20px; transition: font-size 2s; } </style>
 
-<script> window.onload = function() { var number = document.getElementById(“number”); var value = parseInt(number.textContent); number.style.fontSize = value * 10 + “px”; }; </script>
+
 <!--
 **Taranking1385/Taranking1385** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

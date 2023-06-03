@@ -3,7 +3,9 @@
  <br> I'm a Back-End Developer</h3>
   
 <h3 animation="helt"> 5 <h3/>
-
+<div id="circle">
+  <span id="number">54</span>
+</div>
 ###
 
 <img align="center" src="https://user-images.githubusercontent.com/112483091/187425702-72de783a-c79b-4c42-949b-46f78778d95a.svg" alt="just for fun">
@@ -152,7 +154,30 @@
 <style> #circle { width: 100px; height: 100px; border-radius: 50%; background-color: lightblue; display: flex; align-items: center; justify-content: center; }
 
 #number { font-size: 20px; transition: font-size 2s; } </style>
+<style>
+  #circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
+  #number {
+    font-size: 20px;
+    transition: font-size 2s;
+  }
+</style>
+
+<script>
+  window.onload = function() {
+    var number = document.getElementById("number");
+    var value = parseInt(number.textContent);
+    number.style.fontSize = value * 10 + "px";
+  };
+</script>
 
 <!--
 **Taranking1385/Taranking1385** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
